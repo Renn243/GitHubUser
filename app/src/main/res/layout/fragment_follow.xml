@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.FollowFragment">
+    tools:context=".ui.activity.FollowFragment">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycle_view"
@@ -23,7 +23,6 @@
         android:text="@string/empty"
         android:layout_gravity="center"
         android:textSize="14sp"
-        android:textColor="@color/orange"
         android:visibility="gone"
         android:layout_margin="10dp" />
 </FrameLayout>

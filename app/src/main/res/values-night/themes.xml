@@ -1,25 +1,27 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.GitHubUser" parent="Theme.Material3.DayNight.NoActionBar">
-        <item name="colorPrimary">@color/gray_light</item>
+    <style name="Base.Theme.GitHubUser" parent="Theme.Material3.DayNight">
+        <item name="colorPrimary">@color/blue_light</item>
         <item name="colorPrimaryVariant">@color/gray</item>
         <item name="colorOnPrimary">@color/black</item>
-        <item name="colorSecondary">@color/orange_light</item>
-        <item name="colorSecondaryVariant">@color/orange_light</item>
+        <item name="colorSecondary">@color/blue_light</item>
+        <item name="colorSecondaryVariant">@color/blue_light</item>
         <item name="colorOnSecondary">@color/black</item>
     </style>
 
-    <style name="customBackground">
-        <item name="backgroundColor">@color/black</item>
+    <style name="SplashTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/blue_light</item>
+        <item name="colorPrimaryVariant">@color/gray</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorSecondary">@color/blue_light</item>
+        <item name="colorSecondaryVariant">@color/blue_light</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:windowIsTranslucent">true</item>
     </style>
 
-    <style name="customBackgroundSecondary">
-        <item name="backgroundColor">@color/black</item>
-    </style>
-
-    <style name="backButton">
-        <item name="android:tint">@color/white</item>
-    </style>
+<!--    <style name="button">-->
+<!--        <item name="android:fillColor">@color/white</item>-->
+<!--    </style>-->
 
     <style name="text">
         <item name="android:textSize">14sp</item>
